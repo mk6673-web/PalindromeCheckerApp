@@ -5,6 +5,9 @@ public class PalindromeCheckerApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // UC1: Add welcome message module
+        System.out.println("--- Welcome to the Palindrome Checker ---");
+
         System.out.print("Enter a word or phrase: ");
         String input = scanner.nextLine();
 
